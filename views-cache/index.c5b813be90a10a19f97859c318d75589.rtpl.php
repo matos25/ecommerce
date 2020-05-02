@@ -13,6 +13,7 @@
 						</div>
 					</li>
 					<li><img src="/res/site/img/h4-slide2.png" alt="Slide">
+					<li><img src="img/h4-slide2.png" alt="Slide">
 						<div class="caption-group">
 							<h2 class="caption title">
 								by one, get one <span class="primary">50% <strong>off</strong></span>
@@ -22,6 +23,7 @@
 						</div>
 					</li>
 					<li><img src="/res/site/img/h4-slide3.png" alt="Slide">
+					<li><img src="img/h4-slide3.png" alt="Slide">
 						<div class="caption-group">
 							<h2 class="caption title">
 								Apple <span class="primary">Store <strong>Ipod</strong></span>
@@ -31,6 +33,7 @@
 						</div>
 					</li>
 					<li><img src="/res/site/img/h4-slide4.png" alt="Slide">
+					<li><img src="img/h4-slide4.png" alt="Slide">
 						<div class="caption-group">
 						  <h2 class="caption title">
 								Apple <span class="primary">Store <strong>Ipod</strong></span>
@@ -194,10 +197,19 @@
                             <img src="img/brand5.png" alt="">
                             <img src="img/brand6.png" alt="">
                             <img src="img/brand1.png" alt="">
-                            <img src="img/brand2.png" alt="">                            
+                            <img src="img/brand2.png" alt="">  
+                            <img src="/res/site/img/brand1.png" alt="">
+                            <img src="/res/site/img/brand2.png" alt="">
+                            <img src="/res/site/img/brand3.png" alt="">
+                            <img src="/res/site/img/brand4.png" alt="">
+                            <img src="/res/site/img/brand5.png" alt="">
+                            <img src="/res/site/img/brand6.png" alt="">
+                            <img src="/res/site/img/brand1.png" alt="">
+                            <img src="/res/site/img/brand2.png" alt="">  
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div> <!-- End brands area -->
     </div> <!-- End brands area -->

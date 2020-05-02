@@ -59,6 +59,7 @@ desired effect
 
     <!-- Logo -->
     <a href="index2.html" class="logo">
+    <a href="/res/admin/index2.html" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>A</b>LT</span>
       <!-- logo for regular state and mobile devices -->
@@ -257,7 +258,8 @@ desired effect
         <li class="header">HEADER</li>
         <!-- Optionally, you can add icons to the links -->
         <li class="active"><a href="/admin/users"><i class="fa fa-users"></i> <span>Usuarios</span></a></li>
-        <li><a href="#"><i class="fa fa-link"></i> <span>Another Link</span></a></li>
+        <li><a href="/admin/categories"><i class="fa fa-link"></i> <span>Link</span></a></li>
+        <li><a href="/admin/categories"><i class="fa fa-link"></i> <span>Categorias</span></a></li>
         <li class="treeview">
           <a href="#"><i class="fa fa-link"></i> <span>Multilevel</span>
             <span class="pull-right-container">
@@ -273,4 +275,5 @@ desired effect
       <!-- /.sidebar-menu -->
     </section>
     <!-- /.sidebar -->
+  </aside>
   </aside>
