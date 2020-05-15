@@ -1,5 +1,4 @@
 <?php if(!class_exists('Rain\Tpl')){exit;}?><!-- Main Footer -->
-<<<<<<< HEAD
 <footer class="main-footer">
   <!-- To the right -->
   <div class="pull-right hidden-xs">
@@ -170,7 +169,6 @@
   <!-- Add the sidebar's background. This div must be placed
        immediately after the control sidebar -->
   <div class="control-sidebar-bg"></div>
->>>>>>> c5f3677b1154ef309dff3747f8e83e52016a421d
 </div>
 <!-- ./wrapper -->
 
@@ -184,7 +182,7 @@
 <script src="/res/admin/dist/js/app.min.js"></script>
 
 <!-- Optionally, you can add Slimscroll and FastClick plugins.
-<<<<<<< HEAD
+
    Both of these plugins are recommended to enhance the
    user experience. Slimscroll is required when using the
    fixed layout. -->

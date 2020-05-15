@@ -4,6 +4,7 @@
 
 	use \Hcode\DB\Sql;
 	use \Hcode\Model;
+	use \Hcode\Mailer;
 
 	class User extends Model{
 
@@ -120,7 +121,7 @@
 			$sql = new Sql();
 
 			$results = $sql->select("CALL sp_usersupdate_save(:iduser, :desperson, :deslogin, :despassword, :desemail, :nrphone, :inadmin)",
-				":inadmin", array(					
+				array(					
 				":desperson"=>$this->getdesperson(),
 				":deslogin"=>$this->getdeslogin(),
 				":despassword"=>$this->getdespassword(),
