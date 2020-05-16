@@ -40,8 +40,25 @@ $app->get("/categories/:idcategory", function($idcategory){
 
 	$page->setTpl("category", [
 		'category'=>$category->getValues(),
-		'products'=>$pagination["data"]
+		'products'=>$pagination["data"],
+		'pages'=>$pages
 	]);
+});
+
+$app->get("/products/:desurl", function($desurl){
+
+	$product = new Product();
+
+	$product->getFromURL($desurl);
+
+	$page = new Page();
+
+	$page->setTpl("product-detail",[
+		'product'=>$product->getValues(),
+		'categories'=>$product->getCategories()
+
+	]);
+
 });
 
 
